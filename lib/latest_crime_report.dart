@@ -102,7 +102,7 @@ class LatestCrimeReport extends StatelessWidget {
                         ),
                       ],
                     ),
-                    trailing: Icon(Icons.dangerous),
+                    trailing: Icon(Icons.more_vert),
                   );
                 },
               ),

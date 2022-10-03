@@ -7,6 +7,7 @@ import 'package:social_police_webapp/chart_data.dart';
 import 'package:social_police_webapp/dash_board2.dart';
 import 'package:social_police_webapp/latest_crime_report.dart';
 import 'package:social_police_webapp/pie_chart.dart';
+import 'package:social_police_webapp/table_info.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -221,8 +222,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: MediaQuery.of(context).size.height / 2,
                       child: FittedBox(
                         child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             LatestCrimeReport(),
+                            TableInfo(),
                           ],
                         ),
                       ),
