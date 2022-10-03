@@ -44,49 +44,113 @@ class TableInfo extends StatelessWidget {
               DataCell(Text('CDD1049')),
               DataCell(Text('Violence and sexual offences')),
               DataCell(Text('12/04/2022')),
-              DataCell(Text('PENDING')),
+              DataCell(Container(
+                  width: 73,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    shape: BoxShape.rectangle,
+                    color: Color(0xffFFB020),
+                  ),
+                  child: Center(child: Text('PENDING')))),
             ]),
             DataRow(cells: [
               DataCell(Text('CDD1048')),
               DataCell(Text('Posession of weapons')),
               DataCell(Text('12/04/2022')),
-              DataCell(Text('SOLVED')),
+              DataCell(Container(
+                  width: 73,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    shape: BoxShape.rectangle,
+                    color: Color(0xff14B8A6),
+                  ),
+                  child: Center(child: Text('SOLVED')))),
             ]),
             DataRow(cells: [
               DataCell(Text('CDD1047')),
               DataCell(Text('Shoplifting')),
               DataCell(Text('12/04/2022')),
-              DataCell(Text('SOLVED')),
+              DataCell(Container(
+                  width: 73,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    shape: BoxShape.rectangle,
+                    color: Color(0xff14B8A6),
+                  ),
+                  child: Center(child: Text('SOLVED')))),
             ]),
             DataRow(cells: [
               DataCell(Text('CDD1046')),
               DataCell(Text('Shoplifting')),
               DataCell(Text('12/04/2022')),
-              DataCell(Text('PENDING')),
+              DataCell(Container(
+                  width: 73,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    shape: BoxShape.rectangle,
+                    color: Color(0xffFFB020),
+                  ),
+                  child: Center(child: Text('PENDING')))),
             ]),
             DataRow(cells: [
               DataCell(Text('CDD1046')),
               DataCell(Text('Criminal damage and arson')),
               DataCell(Text('12/04/2022')),
-              DataCell(Text('SOLVED')),
+              DataCell(Container(
+                  width: 73,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    shape: BoxShape.rectangle,
+                    color: Color(0xffD14343),
+                  ),
+                  child: Center(child: Text('UNRESOLVED')))),
             ]),
             DataRow(cells: [
               DataCell(Text('CDD1044')),
               DataCell(Text('Anti-social behaviour')),
               DataCell(Text('12/04/2022')),
-              DataCell(Text('SOLVED')),
+              DataCell(Container(
+                  width: 73,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    shape: BoxShape.rectangle,
+                    color: Color(0xff14B8A6),
+                  ),
+                  child: Center(child: Text('SOLVED')))),
             ]),
             DataRow(cells: [
               DataCell(Text('CDD1044')),
               DataCell(Text('Anti-social behaviour')),
               DataCell(Text('12/04/2022')),
-              DataCell(Text('SOLVED')),
+              DataCell(Container(
+                  width: 73,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    shape: BoxShape.rectangle,
+                    color: Color(0xff14B8A6),
+                  ),
+                  child: Center(child: Text('SOLVED')))),
             ]),
             DataRow(cells: [
               DataCell(Text('CDD1044')),
               DataCell(Text('Anti-social behaviour')),
               DataCell(Text('12/04/2022')),
-              DataCell(Text('SOLVED')),
+              DataCell(Container(
+                  width: 73,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    shape: BoxShape.rectangle,
+                    color: Color(0xff14B8A6),
+                  ),
+                  child: Center(child: Text('SOLVED')))),
             ]),
           ],
         ),
